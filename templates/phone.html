@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Enter Phone</title></head>
+<body>
+    <p>Welcome, {{ username }}! Please enter your phone number.</p>
+    <form method="POST">
+        <input type="text" name="phone" placeholder="+911234567890" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if message %}
+        <p style="color:red;">{{ message }}</p>
+    {% endif %}
+</body>
+</html>

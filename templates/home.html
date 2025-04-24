@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name</title>
+</head>
+<body>
+    <form method="POST">
+        <label for="usr_name">Enter your name:</label>
+        <input type="text" name="usr_name" id="usr_name" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if message %}
+        <p style="color:red;">{{ message }}</p>
+    {% endif %}
+</body>
+</html>
