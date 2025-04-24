@@ -55,7 +55,7 @@ class emp:
 
 
 
-print("Hi, welcome to the employee details")
+print("welcome to the employee details")
 obj=emp("Vivek","+918332037033","sdfkb@gmail.com")
 obj.add()
 obj1=emp("Vinod","+918111037033","avfhkafqv@gmail.com")
